@@ -10,7 +10,7 @@ require("channels")
 require("jquery")
 
 import '../scripts/test.js'
-import '../scripts/ajax-practice.coffee'
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
