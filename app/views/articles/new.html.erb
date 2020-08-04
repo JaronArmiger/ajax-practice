@@ -1,9 +1,5 @@
-<%= form_with(model: @article, id: "new_article") do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <br>
-  <%= f.label :description %>
-  <%= f.text_area :description %>
-  <br>
-  <%= f.submit %>
-<% end %>
+<h1>new</h1>
+
+<%= render 'form' %>
+
+<%= link_to "home", articles_path %>
